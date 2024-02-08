@@ -1,0 +1,32 @@
+icons:
+https://react-icons.github.io/react-icons
+
+1. move styling for the top navbar from index.css to somewhere else
+2. animatePresence for exit animations on pages
+3. scrollToTop if nessesary
+4. suspense fallback="" if nessesary (for when pages are loading, the laoding dots or whatever)
+5. add active to navbar
+6. add shadow when hovering on projects
+7. nested router didn't work, figure out why
+8. figure out the types for context. it is currently typed as 'any'
+   8.5. in 'ProjectGeneric' some of the functions dont work. it is probably a result of the 'any' type being used above.
+   8.75. I dont really understand how the object (which acts as a big list) gets the information through the context thingy.
+   look at the code carefully and figure out what is happening.
+9. ProjectInfo function takes in type 'any' when it should be type 'string' but string throws error
+10. finally resorted to wrapping the /:name in the app router with a checker to see if the name is valid. This is probably the best way.
+    however, context should probably be used instead, in which case the context wrapper should be shifted to the entire app itself,
+    rather than just in the projectGeneric file.
+11. Figure out how the code in the pdf viewer works. Still not sure about the mapping function and if it needs to be so weird. Come
+    up with a way to reword it!!
+12. remove space ghost project from visor project pdf, and create a seperate project for it
+13. remove watercolor string project from cmyk add the water color string project
+14. remove potato project from butterfly and create seperate pdf for it
+15. add minecraft builds to projects
+16. add youtube videos to projects
+17. add moton to all the pages
+18. add youtube video to the water drawing project
+19. fies have been moved to google drive. make sure to know that they are there, and have a backup on github if needed?
+20. The nav bar css should be ajusted so there is not so much repeating
+21. interactive map for the projects tab
+22. add first watercolor to sketchbook
+23. add sketchbook from rome, any missing pages

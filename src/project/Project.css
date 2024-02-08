@@ -1,0 +1,17 @@
+.PDF{
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.Page{
+    max-width: 100%;
+    margin: 1rem;
+
+}
+
+.Document{
+    max-width: 100%;
+}
+
