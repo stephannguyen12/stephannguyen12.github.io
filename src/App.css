@@ -1,38 +1,40 @@
-.App {
-  text-align: center;
+
+#root {
+  width: 100%;
+  overflow: hidden;
+}
+.margin-1600 {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1600px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.box {
+  border-style: dashed;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.text-48{
+  font-size: 48px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/*================================================================
+general stuff above.
+page-specific stuff below.
+================================================================*/
+.banner {
+  background-color: #FE9900;
+  height: 20rem;
+  padding-top: 5rem;
+}
+.sketchbook-grid {
+  padding: 1rem;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-wrap: wrap;
+  grid-template-columns: repeat(auto-fill, minmax(0, 1fr)); 
+  grid-gap: 10px; 
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.sketchbook-grid-item {
+  max-height: 200px;
+  max-width: 100%;
+  display: flex;
+  align-items: flex-end;
 }
