@@ -1,10 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.260836d5.css",
-    "main.js": "/static/js/main.5987f2d4.js",
+    "main.css": "/static/css/main.02d72661.css",
+    "main.js": "/static/js/main.6417c948.js",
     "static/js/453.53aa67ba.chunk.js": "/static/js/453.53aa67ba.chunk.js",
+    "static/media/page0.jpg": "/static/media/page0.e1f51388ccd91dc8e988.jpg",
+    "static/media/page1.jpg": "/static/media/page1.77643edf96ba3b50fe16.jpg",
+    "static/media/page9.jpg": "/static/media/page9.c321458b62ccf63c394c.jpg",
+    "static/media/page8.jpg": "/static/media/page8.12a75cf3172d28f4d2a3.jpg",
+    "static/media/page7.jpg": "/static/media/page7.0e13374780b312f7f3ff.jpg",
+    "static/media/page5.jpg": "/static/media/page5.510553d964a0434a0a02.jpg",
+    "static/media/page3.jpg": "/static/media/page3.8fbf17886455bb3d9eab.jpg",
+    "static/media/page6.jpg": "/static/media/page6.8392b264d356fdcbb3a6.jpg",
+    "static/media/page4.jpg": "/static/media/page4.46c32a752e1043dfa763.jpg",
     "static/media/2022_10_29_view.png": "/static/media/2022_10_29_view.0f815982109b43089654.png",
     "static/media/2022_10_28_hadriansVilla.png": "/static/media/2022_10_28_hadriansVilla.50af01eef2be2a7de295.png",
+    "static/media/page2.jpg": "/static/media/page2.31bf6d776e5806392fe4.jpg",
     "static/media/2023_05_04_greenhouse.jpg": "/static/media/2023_05_04_greenhouse.b8e2e81238abb23392c0.jpg",
     "static/media/2023_04_13_suwon.jpg": "/static/media/2023_04_13_suwon.09d058e5ea99e460c29e.jpg",
     "static/media/2023_04_27_sayuwon.jpg": "/static/media/2023_04_27_sayuwon.ef2cf6d4a235e5de46ff.jpg",
@@ -53,12 +63,12 @@
     "static/media/2022_08_09_colosseumCrack.jpg": "/static/media/2022_08_09_colosseumCrack.29d756ff3bd3793ae838.jpg",
     "static/media/2022_10_08_foundation.jpg": "/static/media/2022_10_08_foundation.d2f08fcf272ed0de3360.jpg",
     "index.html": "/index.html",
-    "main.260836d5.css.map": "/static/css/main.260836d5.css.map",
-    "main.5987f2d4.js.map": "/static/js/main.5987f2d4.js.map",
+    "main.02d72661.css.map": "/static/css/main.02d72661.css.map",
+    "main.6417c948.js.map": "/static/js/main.6417c948.js.map",
     "453.53aa67ba.chunk.js.map": "/static/js/453.53aa67ba.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.260836d5.css",
-    "static/js/main.5987f2d4.js"
+    "static/css/main.02d72661.css",
+    "static/js/main.6417c948.js"
   ]
 }
