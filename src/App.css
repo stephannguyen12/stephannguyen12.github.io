@@ -4,14 +4,22 @@
   overflow: hidden;
 }
 .margin-1600 {
-  padding: 0 1rem;
   margin-left: auto;
   margin-right: auto;
-  max-width: 1600px;
+  max-width: 100rem;
+} @media (max-width: 102rem) {
+  .margin-1600 {
+    margin: 0 1rem;
+
+  }
 }
 
 .box {
   border-style: dashed;
+}
+
+.drop-shadow {
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
 }
 
 .text-48{
@@ -36,22 +44,40 @@ page-specific stuff below.
 ================================================================*/
 .banner {
   background-color: #FE9900;
-  height: 20rem;
   padding-top: 5rem;
+  padding-bottom: 5rem;
 }
 
 .nav {
   display: flex;
   margin-top: 3rem;
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
 }
 .nav li {
   display: inline-block;
-  margin: 0 2rem;
+  margin: 0 4.5rem 0 0;
 }
 .nav a, .nav .Link {
   text-decoration: none;
   color: inherit;
+}
+
+.page {
+  min-height: 500px;
+}
+
+.msg {
+  padding: 1rem;
+}
+
+.footer {
+  border-style: solid none none;
+  border-color: lightgray;
+  border-width: 1px;
+  padding: 2rem 0;
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
 }
 
 /*================================================================*/
@@ -78,5 +104,4 @@ page-specific stuff below.
   max-width: 100%;
   display: flex;
   align-items: flex-end;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
