@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/static/css/main.946aa282.css",
-    "main.js": "/static/js/main.4ca3e097.js",
+    "main.css": "/static/css/main.8a186a53.css",
+    "main.js": "/static/js/main.42ab6344.js",
     "static/js/453.53aa67ba.chunk.js": "/static/js/453.53aa67ba.chunk.js",
+    "static/media/homepage.mp4": "/static/media/homepage.b5430e1e2666778cfe35.mp4",
     "static/media/page0.jpg": "/static/media/page0.2cfba79d73bc6c1d95ee.jpg",
     "static/media/page11.jpg": "/static/media/page11.a4ec9a712170b7dbef63.jpg",
     "static/media/page1.jpg": "/static/media/page1.aa7285684b476b97f560.jpg",
@@ -65,12 +66,12 @@
     "static/media/2022_08_09_colosseumCrack.jpg": "/static/media/2022_08_09_colosseumCrack.29d756ff3bd3793ae838.jpg",
     "static/media/2022_10_08_foundation.jpg": "/static/media/2022_10_08_foundation.d2f08fcf272ed0de3360.jpg",
     "index.html": "/index.html",
-    "main.946aa282.css.map": "/static/css/main.946aa282.css.map",
-    "main.4ca3e097.js.map": "/static/js/main.4ca3e097.js.map",
+    "main.8a186a53.css.map": "/static/css/main.8a186a53.css.map",
+    "main.42ab6344.js.map": "/static/js/main.42ab6344.js.map",
     "453.53aa67ba.chunk.js.map": "/static/js/453.53aa67ba.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.946aa282.css",
-    "static/js/main.4ca3e097.js"
+    "static/css/main.8a186a53.css",
+    "static/js/main.42ab6344.js"
   ]
 }
