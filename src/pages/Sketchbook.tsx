@@ -5,7 +5,14 @@ function Sketchbook() {
     
     return(
         <div className="margin-1600">
-            <SketchbookGrid />
+
+            <div className="fade-in-3s-80 min-height-page">
+                <SketchbookGrid />
+            </div>
+
+            <div className="loading">
+                <h2>loading...</h2>
+            </div>
         </div>
     )
 }

@@ -10,13 +10,19 @@
 } @media (max-width: 102rem) {
   .margin-1600 {
     margin: 0 1rem;
-
   }
 }
 
-.box {
-  border-style: dashed;
+
+.strict{
+  margin: 0;
+  padding: 0;
 }
+
+.full-height {
+  min-height: 100vh;
+}
+
 
 .drop-shadow {
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
@@ -38,6 +44,40 @@
   font-size: 30px;
 }
 
+.fade-in-5s-80 {
+	opacity: 1;
+	animation-name: fadeIn80;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 5s;
+} @keyframes fadeIn80 {
+	0% {opacity: 0; }
+  80% {opacity: 0; }
+	100% { opacity: 1; }
+}
+
+.fade-in-1s {
+  opacity: 1;
+  animation-name: fadeIn20;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in-out;
+  animation-duration: 1s;
+} @keyframes fadeIn20 {
+  0% {opacity: 0; }
+  20% {opacity: 0; }
+  100% {opacity: 1; }
+}
+
+.fade-in-3s-80 {
+  opacity: 1;
+  animation-name: fadeIn80;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+  animation-duration: 2s;
+}
+
+
+
 /*================================================================
 general stuff above.
 page-specific stuff below.
@@ -47,6 +87,43 @@ page-specific stuff below.
   padding-top: 5rem;
   padding-bottom: 5rem;
 }
+
+.background-image{
+  position: absolute;
+  height: 100vh;
+  z-index: -1;
+}
+
+.page {
+  border-style: dashed;
+}
+
+.interactive-media {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: bottom;
+  z-index: 10;
+}
+
+.interactive-container {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+
+.button-home-to-about {
+  background-color: transparent;
+  z-index: 20;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  height: max(100vw/3.6, 50%);
+  width: min(calc(80vw/2), calc((100vw - (100vh / 3)) / 2));
+  color: inherit;
+  border-style: dashed;
+  }
 
 .nav {
   display: flex;
@@ -60,10 +137,6 @@ page-specific stuff below.
 .nav a, .nav .Link {
   text-decoration: none;
   color: inherit;
-}
-
-.page {
-  min-height: 500px;
 }
 
 .msg {
@@ -80,6 +153,89 @@ page-specific stuff below.
   justify-content: center;
 }
 
+
+
+.homepage-nav {
+  z-index: 100;
+  position: absolute;
+  top: 6%;
+  left: 6%;
+
+}
+.homepage-nav li {
+  display: flex;
+  margin: 0.5rem 4.5rem 0 0;
+  color: rgb(30, 30, 30)
+}
+.homepage-nav a, .nav .Link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.about-nav {
+  z-index: 200;
+  position: absolute;
+  top: calc(6% + 150px);
+  left: 6%;
+}
+.about-nav li {
+  display: flex;
+  margin: 0.5rem 4.5rem 0 0;
+  color: rgb(30, 30, 30)
+}
+.about-nav a, .nav .Link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.about-nav button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    margin: 0.5rem 0;
+    color: inherit;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+
+
+.loading {
+  position: absolute;
+  top: 150px;
+  z-index: -1;
+  opacity: 0;
+  animation-name: fadeOut;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+  animation-duration: 1s;
+
+.background {
+  width: "100vw";
+  height: "100vh";
+  overflow: "hidden";
+}
+
+
+
+
+
+
+} @keyframes fadeOut {
+  0% {opacity: 1; }
+  80% {opacity: 1; }
+  100% {opacity: 0; }
+}
+.loading h2 {
+  color: grey;
+}
 /*================================================================*/
 .sketchbook-grid {
   display: flex;
@@ -104,4 +260,23 @@ page-specific stuff below.
   max-width: 100%;
   display: flex;
   align-items: flex-end;
+}
+
+
+
+.fade-out {
+  opacity: 0;
+  animation-name: fadeOut;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+  animation-duration: 1s;
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
 }
