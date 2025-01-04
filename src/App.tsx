@@ -1,6 +1,7 @@
 
 
 import './App.css';
+import './Buttons.css';
 
 import Homepage from './pages/Homepage'
 import About from './pages/About'

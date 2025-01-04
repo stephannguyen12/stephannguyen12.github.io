@@ -3,8 +3,13 @@
 function Projects() {
     
     return(
-        <div className="margin-1600 page">
-            <h1>This page is currently being updated. Prepare for a massive overhaul.</h1>
+        <div>
+            <div className="nav-space">
+            </div>
+            <div className="margin-6">
+            <p>This page is currently being updated. Prepare for a massive overhaul.</p>
+            </div>
+
         </div>
     )
 }

@@ -1,0 +1,81 @@
+
+/* this file has the buttons */
+
+.button-dot::before { /* expands the clickable area of button-dot */
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    right: -10px;
+    bottom: -10px;
+    border-radius: 50%;
+    background: transparent;
+  }
+  .button-dot {
+    z-index: 20;
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    background-color: rgba(78, 187, 255, 0.758);
+    border-radius: 50%;
+    border-style: solid;
+    border-color: white;
+    animation: pulse 4s infinite ease-in-out;
+  } .button-dot:hover {
+    cursor: pointer;
+  }
+  @keyframes pulse {
+    0%, 70%, 100% {
+      transform: scale(1);
+      opacity: 1;
+    }   
+    80% {
+      transform: scale(2);
+    }
+    85% {
+      opacity: 0;
+    }
+  }
+  
+  .home-to-about {
+    bottom: max(((calc(100vw * 9) / 16) * 0.21), 21%);
+    left: max(65%, calc(
+      calc(100vh * 16 / 9 * 0.65) /* width at transition */
+      - calc(calc(calc(100vh * 16 / 9) 
+        - 100vw) / 2) /* half of chopped off width */
+      )
+    )
+  }
+    
+  .home-to-projects {
+    bottom: max(((calc(100vw * 9) / 16) * 0.22), 22%);
+    right: max(65%, calc(
+      calc(100vh * 16 / 9 * 0.65) /* width at transition */
+      - calc(calc(calc(100vh * 16 / 9) 
+        - 100vw) / 2) /* half of chopped off width */
+      )
+    )
+  }
+  
+  .about-to-home { /* this one is a back arrow, not a dot */
+    z-index: 20;
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    background: none;
+    border: none;
+    top: calc(6% + 155px);
+    left: calc(6% - 13px);
+  } .about-to-sketchbook:hover {
+    cursor: pointer;
+  }
+
+  .about-to-sketchbook {
+    bottom: max(((calc(100vw * 9) / 16) * 0.32), 32%);
+    right: max(72%, calc(
+      calc(100vh * 16 / 9 * 0.72) /* width at transition */
+      - calc(calc(calc(100vh * 16 / 9) 
+        - 100vw) / 2) /* half of chopped off width */
+      )
+    )
+  }

@@ -1,41 +1,32 @@
 
-import { Link, useLocation } from 'react-router-dom';
+import { NavLink, useLocation } from 'react-router-dom';
 
 
 function NavBar () {
 
   const location = useLocation();
 
-  const pathsToRenderNav = ['/', '/About']; // paths not to have navbar
-
-
-
 
     return (
         <div>
-            {pathsToRenderNav.includes(location.pathname) && (
-                <nav className="homepage-nav fade-in-5s-80">
-                    <ul className="text-30">
-                        <li><Link to="/">+ Stephan Nguyen</Link></li>
-                        <li><Link to="Sketchbook">+ Sketchbook</Link></li>
-                        <li><Link to="Projects">+ Projects</Link></li>
-                    </ul>
-                </nav>
-            )}
-
-
-            {!pathsToRenderNav.includes(location.pathname) && (
-                <nav className="margin-1600 nav">
-                    <ul className="text-30">
-                        <li><Link to="/">Stephan Nguyen</Link></li>
-                        <li><Link to="Sketchbook">Sketchbook</Link></li>
-                        <li><Link to="Projects">Projects</Link></li>
-                    </ul>
-                </nav>
-            )}
-
+            <nav className="nav-bar text-24 fade-in-5s-80">
+                    <NavLink to="/"
+                            className="nav-link"
+                            >   Stephan Nguyen</NavLink>
+                    <NavLink to="Sketchbook"
+                            className={({ isActive }) => (isActive ? 
+                            "nav-link-active-blue" : "nav-link")}>
+                            {location.pathname === "/Sketchbook" ? "   Sketchbook" : "+ Sketchbook"}</NavLink>
+                    <NavLink to="Projects"
+                            className={({ isActive }) => (isActive ? 
+                            "nav-link-active-blue" : "nav-link")}>
+                            {location.pathname === "/Projects" ? "   Projects" : "+ Projects"}</NavLink>
+                    <NavLink to="About"
+                            className={({ isActive }) => (isActive ? 
+                            "nav-link-active-white" : "nav-link")}>
+                            {location.pathname === "/About" ? "   About" : "+ About"}</NavLink>
+            </nav>
         </div>
-    )
-}
+            )}
 
 export default NavBar;
