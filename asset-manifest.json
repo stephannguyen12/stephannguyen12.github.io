@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.8a186a53.css",
-    "main.js": "/static/js/main.42ab6344.js",
+    "main.css": "/static/css/main.0b8b53ee.css",
+    "main.js": "/static/js/main.b9191847.js",
     "static/js/453.53aa67ba.chunk.js": "/static/js/453.53aa67ba.chunk.js",
     "static/media/homepage.mp4": "/static/media/homepage.b5430e1e2666778cfe35.mp4",
     "static/media/page0.jpg": "/static/media/page0.2cfba79d73bc6c1d95ee.jpg",
@@ -18,6 +18,8 @@
     "static/media/page2.jpg": "/static/media/page2.94e432ad469fd4af1dbc.jpg",
     "static/media/2022_10_29_view.png": "/static/media/2022_10_29_view.0f815982109b43089654.png",
     "static/media/2022_10_28_hadriansVilla.png": "/static/media/2022_10_28_hadriansVilla.50af01eef2be2a7de295.png",
+    "static/media/about-to-home.mp4": "/static/media/about-to-home.46f6f1f2867f08584ba5.mp4",
+    "static/media/home-to-about.mp4": "/static/media/home-to-about.592f6917e5fb7a6b2716.mp4",
     "static/media/2023_05_04_greenhouse.jpg": "/static/media/2023_05_04_greenhouse.b8e2e81238abb23392c0.jpg",
     "static/media/2023_04_13_suwon.jpg": "/static/media/2023_04_13_suwon.09d058e5ea99e460c29e.jpg",
     "static/media/2023_04_27_sayuwon.jpg": "/static/media/2023_04_27_sayuwon.ef2cf6d4a235e5de46ff.jpg",
@@ -65,13 +67,14 @@
     "static/media/2023_05_20_tea.jpg": "/static/media/2023_05_20_tea.a264bfea3fdbcdf4a5b9.jpg",
     "static/media/2022_08_09_colosseumCrack.jpg": "/static/media/2022_08_09_colosseumCrack.29d756ff3bd3793ae838.jpg",
     "static/media/2022_10_08_foundation.jpg": "/static/media/2022_10_08_foundation.d2f08fcf272ed0de3360.jpg",
+    "static/media/about.jpg": "/static/media/about.b6f6bd0ca34c941e1cb9.jpg",
     "index.html": "/index.html",
-    "main.8a186a53.css.map": "/static/css/main.8a186a53.css.map",
-    "main.42ab6344.js.map": "/static/js/main.42ab6344.js.map",
+    "main.0b8b53ee.css.map": "/static/css/main.0b8b53ee.css.map",
+    "main.b9191847.js.map": "/static/js/main.b9191847.js.map",
     "453.53aa67ba.chunk.js.map": "/static/js/453.53aa67ba.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8a186a53.css",
-    "static/js/main.42ab6344.js"
+    "static/css/main.0b8b53ee.css",
+    "static/js/main.b9191847.js"
   ]
 }
