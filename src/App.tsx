@@ -2,11 +2,13 @@
 
 import './App.css';
 import './Buttons.css';
+import './Animations.css';
 
 import Homepage from './pages/Homepage'
 import About from './pages/About'
 import Sketchbook from './pages/Sketchbook'
 import Portfolio from './pages/Portfolio'
+import Disclosure from './pages/Disclosure'
 import Projects from './pages/Projects'
 import NavBar from './NavBar'
 
@@ -19,14 +21,13 @@ function App() {
 
   return (
     <div>
-
-      <div><NavBar/></div>
-
-      <div className="full-height"> {/*video and content*/}
+      <div><NavBar/></div> {/* nav bar */}
+      <div className="full-height"> {/*interactive thing*/}
         <ScrollToTop/>
         <Routes>
           <Route path="/" element={<Homepage/>}/>
           <Route path="Portfolio" element={<Portfolio/>}/>
+          <Route path="Disclosure" element={<Disclosure/>}/>
           <Route path="Projects" element={<Projects/>}/>
           <Route path="Sketchbook" element={<Sketchbook/>}/>
           <Route path="About" element={<About/>}/>
@@ -36,10 +37,13 @@ function App() {
       <div className="background-image"> {/*background iamge*/}
       </div>
 
-      <div className="banner"> {/* temp banner*/}
-        <div className="margin-1600">
-          <h2 className="text-48">This website is currently under renovation. More to come soon.</h2>
+      <div style={{backgroundColor:"orange", padding:"2rem 0"}}> {/* temp banner*/}
+        <div className="margin-6">
+        <h2 className="text-24">
+          This website is currently under renovation. 
+          More to come soon.</h2>
         </div>
+          
       </div>
 
     </div>
