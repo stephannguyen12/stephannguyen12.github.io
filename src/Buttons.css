@@ -1,7 +1,9 @@
 
-/* this file has the buttons */
+/* this file has the buttons 
+make sure all buttons have z-index of 20 */
 
 .button-dot::before { /* expands the clickable area of button-dot */
+    z-index: 20;
     content: "";
     position: absolute;
     top: -10px;
