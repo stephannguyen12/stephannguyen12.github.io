@@ -1,0 +1,54 @@
+
+/* animations and transitions */
+
+.fade-in-1s {
+    opacity: 1;
+    animation-name: fadeIn20;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out;
+    animation-duration: 1s;
+} @keyframes fadeIn20 {
+    0% {opacity: 0; }
+    20% {opacity: 0; }
+    100% {opacity: 1; }
+}
+
+.fade-in-3s-80 {
+    opacity: 1;
+    animation-name: fadeIn80;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-duration: 2s;
+} @keyframes fadeIn80 {
+	0% {opacity: 0; }
+    80% {opacity: 0; }
+	100% { opacity: 1; }
+}
+
+.fly-up-big {
+    transform: translateY(30vh);
+    animation: flyUp 1s forwards;
+  } @keyframes flyUp {
+    to {
+      transform: translateY(0);
+    }
+  }
+
+  .fade-out-on-scroll {
+    transition: opacity 0.2s ease-out;
+    opacity: 1; /* Start fully visible */
+  }
+
+  .fade-in-on-scroll {
+    transition: opacity 0.2s ease-out;
+    opacity: 0;
+  }
+
+  .fly-up-small {
+    transform: translateY(10vh);
+    animation: flyUp 1s cubic-bezier(0.25, 0.8, 0.5, 1) forwards;
+  } @keyframes flyUp {
+    to {
+      transform: translateY(0);
+    }
+  }
