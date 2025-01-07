@@ -6,10 +6,11 @@ function NavBar () {
 
   const location = useLocation();
 
-
     return (
         <div>
-            <nav className="nav-bar text-24 fade-in-5s-80">
+            <nav className={location.pathname === "/" ? 
+                        "nav-bar text-24 fade-in-3s-80"
+                        : "nav-bar text-24"}>
                     <NavLink to="/"
                             className="nav-link"
                             >   Stephan Nguyen</NavLink>
