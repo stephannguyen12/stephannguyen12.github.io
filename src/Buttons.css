@@ -16,25 +16,25 @@ make sure all buttons have z-index of 20 */
   .button-dot {
     z-index: 20;
     position: absolute;
-    width: 16px;
-    height: 16px;
-    background-color: rgba(78, 187, 255, 0.758);
+    width: 24px;
+    height: 24px;
+    background-color: rgba(0, 0, 0, 0.7);
     border-radius: 50%;
     border-style: solid;
-    border-color: white;
+    border-color: orange;
     animation: pulse 4s infinite ease-in-out;
   } .button-dot:hover {
     cursor: pointer;
   }
   @keyframes pulse {
-    0%, 70%, 100% {
+    0%, 82%, 100% {
       transform: scale(1);
       opacity: 1;
     }   
-    80% {
+    88% {
       transform: scale(2);
     }
-    85% {
+    92% {
       opacity: 0;
     }
   }

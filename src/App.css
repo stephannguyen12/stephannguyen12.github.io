@@ -46,10 +46,10 @@ html, body {
 }
 
 .small-spacer {
-  margin-top: clamp(1rem, calc(16vh - 80px), 2rem);
+  margin-top: clamp(0.5rem, calc(12vh - 80px), 1rem);
 }
 
-.pp {
+.paragraph {
   line-height: 21px;
 }
 
@@ -150,7 +150,6 @@ page-specific stuff below.
 
 .content { /* for regular content layered in the 'relative' container*/
   position: relative;
-  border-style: dashed;
   top: -100vh;
   margin: 0 0 -100vh 0;
   z-index: 10;
