@@ -74,6 +74,7 @@ function About () {
                         0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5z"/>
                     </svg>
                 </button>
+                <div className="button-ring about-to-sketchbook"> </div>
                 <button className="button-dot about-to-sketchbook"
                         onClick={() => handleNavigate("/Sketchbook", "aboutToSketchbook")}>
                 </button>
@@ -100,7 +101,7 @@ function About () {
                     <div className="big-spacer paragraph fly-up-small"
                         >
                         Hello, I'm Stephan! This website is a personal project
-                        built from scratch, created to both develop my webdev skills
+                        built from scratch using React and Vite, created to both develop my webdev skills
                         and showcase some of my work in one place. Feel free to explore
                         whatever is on here. 
                     </div>
@@ -108,25 +109,38 @@ function About () {
                         Scroll for more &#8595;
                     </div>
                     <div className="big-spacer fly-up-big text-24 fade-in-on-scroll">
-                        More to come soon.
+                        + More to come soon.
                     </div>
                     {/*
+                    <div className="big-spacer fly-up-big text-24 fade-in-on-scroll">
+                        + Architecture
+                    </div>
                     <div className="small-spacer paragraph fly-up-small no-overflow fade-in-on-scroll">
-                        here is another box! this one should be below the first
-                        one. stuff to include in the about section:
-                        education,
-                        places lived / study abroad,
-                        interests / hobbies,
-                        skills / technology?
+                        My interest in architecture was sparked by video games, particularly the 
+                        possibilities of building in Minecraft. After completing the Architecture Wonderworks
+                        program at the University of Houston, I obtained my Bachelor's of Architecture from 
+                        Cal Poly, San Luis Obispo. 
                     </div>
                     <div className="big-spacer text-24 fade-in-on-scroll">
-                        Experience Design 
+                        + User Experience and Interface
+                    </div>
+                    <div className="small-spacer paragraph fly-up-small no-overflow fade-in-on-scroll">
+                        With a combination of architectural formal training, as well as a background
+                        in technology and minor in computer science, designing interactive experiences,
+                        both physical and digital, is my passion. My previous projects have included
+                        exhibitions and shows.
                     </div>
                     <div className="big-spacer text-24 fade-in-on-scroll">
-                        Athletics
+                        + Transportation and Urban Planning
+                    </div>
+                    <div className="small-spacer paragraph fly-up-small no-overflow fade-in-on-scroll">
+                        Despite not having a formal education in traffic engineering or city planning,
+                        my interest in flows, optimization, and human-oriented design have over time allowed
+                        me to accrue a vast knowledge and understanding of all things transportation. My
+                        personal projects include  research with TEI on the Westheimer corridor in Houston.
                     </div>
                     <div className="big-spacer text-24 fade-in-on-scroll">
-                        Experience Design 
+                        Athletics and Facilities Management
                     </div>
                     */}
                 </div>

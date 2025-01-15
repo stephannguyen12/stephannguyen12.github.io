@@ -45,8 +45,12 @@ function Homepage () {
   function Buttons() {
     return(
       <div className="fade-in-1s">
+
+        <div className="button-ring home-to-about"> </div>
         <button className="button-dot home-to-about" onClick={() => handleNavigate("/About", "homeToAbout")}> 
         </button> 
+
+        <div className="button-ring home-to-projects"> </div>
         <button className="button-dot home-to-projects" onClick={() => handleNavigate("/Projects", "homeToPojrects")}>
         </button>
       </div>
