@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.88093064.css",
+    "main.css": "/static/css/main.ac5eb3a0.css",
     "main.js": "/static/js/main.460b814e.js",
     "static/js/453.53aa67ba.chunk.js": "/static/js/453.53aa67ba.chunk.js",
     "static/media/disclosure2.jpg": "/static/media/disclosure2.f412edb25436bc9a87d6.jpg",
@@ -75,12 +75,12 @@
     "static/media/2022_08_09_colosseumCrack.jpg": "/static/media/2022_08_09_colosseumCrack.29d756ff3bd3793ae838.jpg",
     "static/media/2022_10_08_foundation.jpg": "/static/media/2022_10_08_foundation.d2f08fcf272ed0de3360.jpg",
     "index.html": "/index.html",
-    "main.88093064.css.map": "/static/css/main.88093064.css.map",
+    "main.ac5eb3a0.css.map": "/static/css/main.ac5eb3a0.css.map",
     "main.460b814e.js.map": "/static/js/main.460b814e.js.map",
     "453.53aa67ba.chunk.js.map": "/static/js/453.53aa67ba.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.88093064.css",
+    "static/css/main.ac5eb3a0.css",
     "static/js/main.460b814e.js"
   ]
 }
